@@ -64,7 +64,8 @@ string getAnswer(int number, int randomNumber) {
         }
         else
         {
-            cout<<"Your number is lower."<<endl;
+            if(number<randomNumber){
+            cout<<"Your number is lower."<<endl;};
         }
     }
 
