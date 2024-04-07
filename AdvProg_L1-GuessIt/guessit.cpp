@@ -60,12 +60,12 @@ string getAnswer(int number, int randomNumber) {
     {
         if(number>randomNumber)
         {
-            cout<<"Your number is higher."<<endl;
+            answer="Your number is higher.";
         }
         else
         {
             if(number<randomNumber){
-            cout<<"Your number is lower."<<endl;};
+            answer="Your number is lower.";};
         }
     }
 
