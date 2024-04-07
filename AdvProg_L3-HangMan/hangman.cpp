@@ -120,7 +120,7 @@ void updateSecretWord(string& secretWord, const char ch, const string& word)
         if(word[i]==ch)
         {
             int h=i;
-            index_need_change.push_back[h];
+            index_need_change.push_back(h);
         }
     }
     for(int i=0;i<index_need_change.size();++i)
