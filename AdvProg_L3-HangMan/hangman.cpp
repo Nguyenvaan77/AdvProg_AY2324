@@ -125,7 +125,7 @@ void updateSecretWord(string& secretWord, const char ch, const string& word)
     }
     for(int i=0;i<index_need_change.size();++i)
     {
-        secretWord[i]=ch;
+        secretWord[index_need_change[i]]=ch;
     }
 }
 
