@@ -119,8 +119,8 @@ void updateSecretWord(string& secretWord, const char ch, const string& word)
     {
         if(word[i]==ch)
         {
-            int h=i;
-            index_need_change.push_back(h);
+            int k=i;
+            index_need_change.push_back(k);
         }
     }
     for(int i=0;i<index_need_change.size();++i)
