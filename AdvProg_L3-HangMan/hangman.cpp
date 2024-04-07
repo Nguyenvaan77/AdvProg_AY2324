@@ -119,10 +119,10 @@ void updateSecretWord(string& secretWord, const char ch, const string& word)
     {
         if(word[i]==ch)
         {
-            ve.push_back[i];
+            index_need_change.push_back[i];
         }
     }
-    for(int i=0;i<ve.size();++i)
+    for(int i=0;i<index_need_change.size();++i)
     {
         secretWord[i]=ch;
     }
